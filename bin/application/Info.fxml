@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="233.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label layoutX="44.0" layoutY="42.0" prefHeight="27.0" prefWidth="69.0" text="座位状态">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="90.0" prefHeight="27.0" prefWidth="69.0" text="学生编号">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="141.0" prefHeight="27.0" prefWidth="69.0" text="剩余时间">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="42.0" prefHeight="27.0" prefWidth="128.0" style="-fx-background-color: yellow;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="90.0" prefHeight="27.0" prefWidth="128.0" style="-fx-background-color: yellow;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="141.0" prefHeight="27.0" prefWidth="128.0" style="-fx-background-color: yellow;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
